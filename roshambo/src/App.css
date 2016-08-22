@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: rgb(209, 225, 232);
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.input button {
+  margin: 2em;
+  background-color: rgb(136, 187, 190);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+
+}
+
+.output {
+  margin: auto 2em;
+  font-size: 1.5em;
+  padding: 1em;
+  border-radius: 5px;
+  border: 2px solid rgb(41, 109, 128);
+  background-color: rgb(75, 200, 235);
+}
